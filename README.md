@@ -17,10 +17,10 @@ Use to create a visual-style.md from scratch, extract a style from a URL/PDF/vid
 claude plugin install visual-style --from https://fadaly.net/downloads/skills/visual-style.zip
 ```
 
-Or clone this repo into your Claude skills directory:
+Or clone this repo into your local Claude skills directory (typically `~/.claude/skills/` on macOS / Linux):
 
 ```bash
-git clone https://github.com/MomoFadaly/visual-style.git ~/.claude/skills/visual-style
+git clone https://github.com/MomoFadaly/visual-style.git
 ```
 
 Or download the zip from [fadaly.net/skills/visual-style](https://fadaly.net/skills/visual-style) (the per-skill landing page on fadaly.net) and extract into `~/.claude/skills/`.
@@ -78,8 +78,6 @@ Apache License 2.0. See [LICENSE](LICENSE).
 
 You are free to use, modify, redistribute, and build on this skill. Attribution to the original practitioners (named in `sources.md` or `SKILL.md`) is morally required even if not legally; their work made the canon possible.
 
-## Built by
+## More like this
 
-[Mo Fadaly](https://fadaly.net) — AI intrapreneur, runs Claude skills in production.
-
-This is one of a series. See the [full catalog at fadaly.net/work](https://fadaly.net/work).
+This is one of a series of Claude skills published openly. See the [full catalog at fadaly.net/work](https://fadaly.net/work).
